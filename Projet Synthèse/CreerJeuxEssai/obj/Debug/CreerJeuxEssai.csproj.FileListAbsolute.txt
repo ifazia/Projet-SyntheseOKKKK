@@ -1,0 +1,52 @@
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Corrections\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\Utilitaires.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\Utilitaires.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.dll
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.dll
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
+F:\CDI\C#\POO\Projet SynthèseOKKKK\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache

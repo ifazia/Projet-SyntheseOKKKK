@@ -1,0 +1,10 @@
+D:\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\bin\Debug\UtilisateursDLL.dll
+D:\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\bin\Debug\UtilisateursDLL.pdb
+D:\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.dll
+D:\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.pdb
+D:\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.csprojResolveAssemblyReference.cache
+D:\_CDI\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\bin\Debug\UtilisateursDLL.dll
+D:\_CDI\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\bin\Debug\UtilisateursDLL.pdb
+D:\_CDI\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.dll
+D:\_CDI\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.pdb
+D:\_CDI\__CDI\Mod01\06 C# Objet Partie 2\Ateliers\A003\UtilisateursDLL\UtilisateursDLL\obj\Debug\UtilisateursDLL.csprojResolveAssemblyReference.cache

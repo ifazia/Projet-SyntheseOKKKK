@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UtilisateursDLL</name>
+    </assembly>
+    <members>
+        <member name="T:SalariesDll.ChangementSalaireEventArgs">
+            <summary>
+            Evénement survient sur changement de salaire
+            </summary>
+        </member>
+        <member name="P:SalariesDll.ChangementSalaireEventArgs.AncienSalaire">
+            <summary>
+            Ancien salaire
+            </summary>
+        </member>
+        <member name="P:SalariesDll.ChangementSalaireEventArgs.TauxAugmentation">
+            <summary>
+            Taux d'augmentation
+            </summary>
+        </member>
+        <member name="M:SalariesDll.ChangementSalaireEventArgs.#ctor">
+            <summary>
+            Création d'un nouvel événement d'augmentation de salaire
+            </summary>
+        </member>
+        <member name="M:SalariesDll.ChangementSalaireEventArgs.#ctor(System.Decimal,System.Decimal)">
+            <summary>
+            Création d'un nouvel événement d'augmentation de salaire
+            </summary>
+            <param name="ancienSalaire">Ancien salaire</param>
+            <param name="tauxAugmentation">Taux d'augmentation</param>
+        </member>
+        <member name="T:SalariesDll.Commercial">
+            <summary>
+            Type Commercial 
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Commercial.ChiffreAffaire">
+            <summary>
+            Chiffre d'affaire pour calcul de la rémunération
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Commercial.Commission">
+            <summary>
+            Commpission pour calcul de la rémunération
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Commercial.SalaireNet">
+            <summary>
+            Salaire net après déduction des charges sociales
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Commercial.#ctor">
+            <summary>
+            Constructeur par défaut
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Commercial.#ctor(System.String,System.String,System.String,System.Decimal,System.Decimal)">
+            <summary>
+            Constructeur d'initialisation
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Commercial.#ctor(SalariesDll.Commercial)">
+            <summary>
+            Constructeur de recopie 
+            </summary>
+            <param name="commercial"></param>
+        </member>
+        <member name="M:SalariesDll.Commercial.ToString">
+            <summary>
+            Renvoie une chaine avec la liste des valeurs des propriétés
+            </summary>
+        </member>
+        <member name="M:SalariesDll.ICollectionMetier.Save(Utilitaires.ISauvegarde,System.String)">
+            <summary>
+            Sauvegarde des entités
+            </summary>
+            <param name="pathRepData">Chemin complet du dossier</param>
+        </member>
+        <member name="M:SalariesDll.ICollectionMetier.Load(Utilitaires.ISauvegarde,System.String)">
+            <summary>
+            Extraction des entités 
+            </summary>
+            <param name="pathRepData">Chemin complet du dossier</param>
+        </member>
+        <member name="M:SalariesDll.Role.Equals(System.Object)">
+            <summary>
+            Compare deux objets pour déterminer l'égalité
+            Même Identifiant
+            </summary>
+            <returns>Vrai si les deux objets sont égaux</returns>
+        </member>
+        <member name="M:SalariesDll.Roles.#ctor">
+            <summary>
+            Constructeur par défaut uniquement à usage du Sérialiseur 
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Roles.RechercherRole(System.String)">
+            <summary>
+            Extraire un utilisateur par son ID
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Roles.Add(SalariesDll.Role)">
+            <summary>
+            Ajout d'un nouvel utilisateur 
+            Se substitue à la méthode de base
+            Pour vérifier unicité de l'identifiant
+            </summary>
+            <param name="salarie"></param>
+            <exception cref="!:UtilisateurException"> Utilisateur_001 lorsque le salarie existe déjà</exception>
+        </member>
+        <member name="T:SalariesDll.Salarie">
+            <summary>
+            Type Salarie
+            </summary>
+        </member>
+        <member name="E:SalariesDll.Salarie.ChangementSalaire">
+            <summary>
+            Evenement sur changement de salaire brut
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.Matricule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.Nom">
+            <summary>
+            Nom du salarié
+            Longueur comprise entre 3 et 30 caractères. Ni caractères spéciaux ni chiffres 
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.Prenom">
+            <summary>
+            Prenom 
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.SalaireBrut">
+            <summary>
+            Salaire brut
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.TauxCS">
+            <summary>
+            Taux de charges sociales affecté
+            Ne peut excéder 0.6
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.DateNaissance">
+            <summary>
+            Date de naissance
+            Ne peut être antérieure au 1er janvier 1900 et postérieure à J -15 ans
+            </summary>
+        </member>
+        <member name="P:SalariesDll.Salarie.SalaireNet">
+            <summary>
+            Salaire touché par le salarie apres déduction des charges sociales
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Salarie.IsNomPrenomValide(System.String)">
+             <summary>
+             Verification de la conformite de la saisie pour les noms et prenoms.
+             Longueur comprise entre 3 et 30 caractères
+             Uniquement composé de lettres
+             </summary>
+             <param name="value"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:SalariesDll.Salarie.IsMatriculeValide(System.String)">
+            <summary>
+            Vérifie que le matricule respecte les règles suivantes
+            Longueur 7 structure nnXXXnnn ou n est un digit et X une lettre
+            </summary>
+            <param name="value">La valeur du matricule</param>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.#ctor">
+            <summary>
+            Constructeur par défaut
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Salarie.#ctor(SalariesDll.Salarie)">
+            <summary>
+            Constructeur de recopie
+            </summary>
+            <param name="salarie"></param>
+        </member>
+        <member name="M:SalariesDll.Salarie.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructeur d'initialisation partielle
+            </summary>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+            <param name="matricule"></param>
+        </member>
+        <member name="M:SalariesDll.Salarie.ToString">
+            <summary>
+            Chaine representant l'objet instancié.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.Equals(System.Object)">
+            <summary>
+            Compare deux objets pour déterminer l'égalité
+            De type Salarie et même matricule
+            </summary>
+            <returns>Vrai si les deux objets sont égaux</returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.Equals(SalariesDll.Salarie)">
+            <summary>
+            Compare deux salariés pour déterminer l'égalité
+            Même matricule
+            </summary>
+            <param name="salarie"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.op_Equality(SalariesDll.Salarie,SalariesDll.Salarie)">
+            <summary>
+            opérateur relationnel ==
+            </summary>
+            <param name="salA">Instance salarié</param>
+            <param name="salB">Instance salarié</param>
+            <returns>Vrai si égaux</returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.op_Inequality(SalariesDll.Salarie,SalariesDll.Salarie)">
+            <summary>
+             opérateur relationnel !=
+            </summary>
+            <param name="salA">Instance salarié</param>
+            <param name="salB">Instance salarié</param>
+            <returns>Vrai si différents</returns>
+        </member>
+        <member name="M:SalariesDll.Salarie.GetHashCode">
+            <summary>
+            Une des règles de conception veut que l'on modifie la méthode GetHashCode
+            Si la méthode Equals est modifiée
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:SalariesDll.Salaries">
+            <summary>
+            Ensemble des salaries
+            </summary>
+            
+        </member>
+        <member name="M:SalariesDll.Salaries.Add(SalariesDll.Salarie)">
+            <summary>
+            Ajouter un salarié
+            </summary>
+            <param name="salarie"></param>
+        </member>
+        <member name="M:SalariesDll.Salaries.AddRange(System.Collections.Generic.IEnumerable{SalariesDll.Salarie})">
+            <summary>
+            Ajout une liste de salariés
+            </summary>
+            <param name="salaries">Tout type implémentant IEnumerable</param>
+        </member>
+        <member name="M:SalariesDll.Salaries.ExtraireSalarie(System.String)">
+            <summary>
+             Extrait le salarié ayant le numéro de matricule fourni en argument
+             </summary>
+             <param name="Matricule"></param>
+             <returns>Un salarié ou null si non trouvé</returns>
+        </member>
+        <member name="M:SalariesDll.Salaries.SalariesNomCommencePar(System.String)">
+            <summary>
+            Extraction d'une liste spécialisée de salariés
+            </summary>
+            <param name="DebutNom">Critère de recherche</param>
+            <returns>Objet Salaries vide si aucun salarié trouvé</returns>
+        </member>
+        <member name="M:SalariesDll.Salaries.Remove(SalariesDll.Salarie)">
+            <summary>
+            Suppresion d'un salarié
+            </summary>
+            <param name="salarie">Objet salarié à supprimer</param>
+        </member>
+        <member name="M:SalariesDll.Salaries.Remove(System.String)">
+            <summary>
+            Suppresion d'un salarié 
+            </summary>
+            <param name="matricule">Matricule du salarié</param>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.IsMotPasseValide(System.String)">
+             <summary>
+            
+             Vérification validité du mot de passe
+             </summary>
+             <param name="motPasse"></param>
+             <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.IsIdentifiantValide(System.String)">
+            <summary>
+            Vérification validité de l'identifiant
+            </summary>
+            <param name="motPasse"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.ToString">
+            <summary>
+            Chaine representant l'objet instancié.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.Equals(System.Object)">
+            <summary>
+            Compare deux objets pour déterminer l'égalité
+            Même Identifiant
+            </summary>
+            <returns>Vrai si les deux objets sont égaux</returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.GetHashCode">
+            <summary>
+            Attribution d'un code de hachage
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.op_Equality(SalariesDll.Utilisateur,SalariesDll.Utilisateur)">
+            <summary>
+            opérateur relationnel ==
+            </summary>
+            <param name="utilisateurA">Première Instance salarié</param>
+            <param name="utilisateurB">Deuxième Instance salarié</param>
+            <returns>Vrai si égaux</returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.op_Inequality(SalariesDll.Utilisateur,SalariesDll.Utilisateur)">
+            <summary>
+             opérateur relationnel !=
+            </summary>
+            <param name="utilisateurA">Première Instance salarié</param>
+            <param name="utilisateurB">Deuxième Instance salarié</param>
+            <returns>Vrai si différents</returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.#ctor">
+            <summary>
+            Une des règles de conception veut que l'on modifie la méthode GetHashCode
+            Si la méthode Equals est modifiée
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.#ctor(SalariesDll.Role)">
+            <summary>
+            Création d'un utilisateur dans un rôle
+            </summary>
+            <param name="role">Rôle applicatif</param>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Création d'initialisation d'un uutilisateur 
+            </summary>
+            <param name="identifiant">Identifiant</param>
+            <param name="nom">Nom</param>
+            <param name="motDePasse">Mot de passe</param>
+        </member>
+        <member name="M:SalariesDll.Utilisateur.#ctor(SalariesDll.Utilisateur)">
+            <summary>
+            Constructeur de recopie d'un utiliasteur
+            </summary>
+            <param name="utilisateur"></param>
+        </member>
+        <member name="T:SalariesDll.Utilisateurs">
+            <summary>
+            Utilisateurs de l'application
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Utilisateurs.#ctor">
+            <summary>
+            Constructeur par défaut 
+            </summary>
+        </member>
+        <member name="M:SalariesDll.Utilisateurs.UtilisateurByMatricule(System.String)">
+            <summary>
+            Extraire un utilisateur par son matricule
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:SalariesDll.Utilisateurs.Add(SalariesDll.Utilisateur)">
+            <summary>
+            Ajout d'un nouvel utilisateur 
+            Se substitue à la méthode de base
+            Pour vérifier unicité de l'identifiant
+            </summary>
+            <param name="salarie"></param>
+            <exception cref="!:UtilisateurException"> Utilisateur_001 lorsque le salarie existe déjà</exception>
+        </member>
+        <member name="M:SalariesDll.Utilisateurs.Save(Utilitaires.ISauvegarde,System.String)">
+            <summary>
+            Sauvegarde
+            </summary>
+            <param name="sauvegarde"></param>
+            <param name="pathRepData"></param>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,18 @@
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\bin\Debug\Utilitaires.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\bin\Debug\Utilitaires.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\obj\Debug\Utilitaires.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\obj\Debug\Utilitaires.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\obj\Debug\Utilitaires.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\bin\Debug\Utilitaires.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\bin\Debug\Utilitaires.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\obj\Debug\Utilitaires.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Source\A003\Utilitaires\obj\Debug\Utilitaires.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.dll
+E:\tests\Projet Synthèse\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.pdb
+E:\tests\Projet Synthèse\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.csprojResolveAssemblyReference.cache
+E:\tests\Projet Synthèse\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.dll
+E:\tests\Projet Synthèse\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.pdb
